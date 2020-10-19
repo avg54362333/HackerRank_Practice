@@ -1,0 +1,10 @@
+//列出公元2000年各月份天數
+import java.util.*;
+public class DateTime{
+    public static void main(String[] args){
+        int[] arrays={31,29,31,30,31,30,31,31,30,31,30,31};
+        System.out.println("公元2000年各月份之天數表");
+        for (int i=0;i<arrays.length;++i)
+            System.out.println((i+1)+"月份天數為"+arrays[i]+"天");
+    } //方法:main() 定義區塊結束
+} //類別:每月天數 定義區塊結束
